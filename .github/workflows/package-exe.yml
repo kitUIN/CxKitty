@@ -37,10 +37,10 @@ jobs:
           onefile: true
           output-dir: out
           include-data-files: |
-            --include-data-files=c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\onnxruntime\capi\onnxruntime_providers_shared.dll=onnxruntime\capi
-            --include-data-files=c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\ddddocr\common_det.onnx=ddddocr
-            --include-data-files=c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\ddddocr\common_det_det.onnx=ddddocr
-            --include-data-files=c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\ddddocr\common_det_old.onnx=ddddocr
+            c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\onnxruntime\capi\onnxruntime_providers_shared.dll=onnxruntime\capi
+            c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\ddddocr\common_det.onnx=ddddocr
+            c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\ddddocr\common_det_det.onnx=ddddocr
+            c:\hostedtoolcache\windows\python\3.10.11\x64\lib\site-packages\ddddocr\common_det_old.onnx=ddddocr
 
 #      - name: Create Executable File (Windows)
 #        if: runner.os == 'Windows'
